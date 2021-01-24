@@ -1,0 +1,74 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* BEGIN Sidebar Styling */
+.sidebar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.masthead {
+    margin-top: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: right;
+}
+.site-title,
+.site-desc {
+    margin: 0;
+}
+.site-desc {
+    font-weight: 100;
+}
+
+.profile-pic {
+    margin-top: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.profile-pic img {
+    float: right;
+    border-radius: 25px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(6px -2px 10px #222);
+}
+
+.sidebar nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.nav-list {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0;
+    float: right;
+}
+.nav-item {
+    display: inline-block;
+}
+.nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+/* END Sidebar Styling */
